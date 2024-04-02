@@ -1,0 +1,2 @@
+# bug: c.f. https://github.com/yadage/yadage-schemas/pull/46
+python -m pip install --upgrade 'yadage-schemas>=0.10.8'

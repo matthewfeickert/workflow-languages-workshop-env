@@ -1,0 +1,14 @@
+name: workflow-languages
+channels:
+  - conda-forge
+  - bioconda  # required for snakemake
+dependencies:
+  - python=3.11
+  - snakemake=8.10.0
+  - cwltool=3.1.20240112164112
+  - graphviz=9.0.0
+  - pip
+  - pip:
+    - apache-airflow==2.8.4
+    - recast-atlas[local]==0.4.0
+    - yadage<0.21.0  # bug for recast
